@@ -12,7 +12,7 @@ import StrategyAI from '@components/StrategyAI';
 import { BrandLogo } from '@components/BrandLogo';
 
 import { LayoutDashboard, Calendar, Trello, Settings, LogOut, Sun, Moon, Trash2, Target, Bot, X, Save } from 'lucide-react';
-import { supabase } from './services/supabaseClient';
+import { supabase } from '@services/supabaseClient';
 import { Session } from '@supabase/supabase-js';
 
 const AREAS_OF_LAW = [
