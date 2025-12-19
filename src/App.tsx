@@ -1,15 +1,16 @@
-
 import React, { useState, useEffect } from 'react';
 import { ViewState, UserProfile, ContentItem, ContentStatus, Platform, ContentFormat, Reminder } from './types';
-import LandingPage from './components/LandingPage';
-import AuthPage from './components/AuthPage';
-import { Dashboard } from './components/Dashboard';
-import Onboarding from './components/Onboarding';
-import CalendarView from './components/CalendarView';
-import ContentBank from './components/ContentBank';
-import AIAssistant from './components/AIAssistant';
-import StrategyAI from './components/StrategyAI';
-import { BrandLogo } from './components/BrandLogo';
+
+import LandingPage from '@components/LandingPage';
+import AuthPage from '@components/AuthPage';
+import { Dashboard } from '@components/Dashboard';
+import Onboarding from '@components/Onboarding';
+import CalendarView from '@components/CalendarView';
+import ContentBank from '@components/ContentBank';
+import AIAssistant from '@components/AIAssistant';
+import StrategyAI from '@components/StrategyAI';
+import { BrandLogo } from '@components/BrandLogo';
+
 import { LayoutDashboard, Calendar, Trello, Settings, LogOut, Sun, Moon, Trash2, Target, Bot, X, Save } from 'lucide-react';
 import { supabase } from './services/supabaseClient';
 import { Session } from '@supabase/supabase-js';
